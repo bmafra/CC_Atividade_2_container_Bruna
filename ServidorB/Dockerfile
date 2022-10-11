@@ -3,7 +3,7 @@ FROM node
 # Informar o diretótio padrão
 WORKDIR /
 # Variaveis de ambiente durante o build do Dockerfile
-ARG PORT=3000 
+ARG PORT=3001 
 # Variavel de ambiente da aplicação
 ENV PORT=$PORT
 # Deixar a porta da máquina visivel
